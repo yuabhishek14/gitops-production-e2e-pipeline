@@ -36,7 +36,7 @@ pipeline {
             steps {
                 sh """
                     git config --global user.name "yuabhishek14"
-                    git config --global user.email "yuabhishek14@gmail.coms"
+                    git config --global user.email "yuabhishek14@gmail.com"
                     git add deployment.yaml
                     git commit -m "Updated Deployment Manifest"
                 """
